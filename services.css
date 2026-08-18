@@ -1,0 +1,389 @@
+.ser {
+    color: white;
+    font-size: 50px;
+}
+.vi {
+    color: brown;
+    font-size: 50px;
+}
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+     background:linear-gradient(to bottom,rgb(66, 66, 66)  ,rgb(145, 145, 145));
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+}
+.des h1 {
+      color:whitesmoke;
+      font-size: 30px;
+      box-shadow: 0 5px 10px black;
+      width:200px;
+      height: 35px;
+      padding-left: 10px;
+}
+h2.one {
+    position: relative;
+    left: 20%;
+    color: wheat;
+    display: inline-block;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px black;
+    width: 200px;
+    padding-left: 60px;
+
+}
+h2.two {
+    
+    position: relative;
+    left: 40%;
+    color: wheat;
+    display: inline-block;
+     background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px black;
+    padding-left: 50px;
+    width: 200px;
+}
+h2.three {
+
+    position: relative;
+    left: 35%;
+    color: wheat;
+     background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px black;
+    width: 300px;
+    padding-left: 80px ;
+}
+.arc h1 {
+     color:whitesmoke;
+      font-size: 30px;
+      box-shadow: 0 5px 10px black;
+      width:200px;
+      height: 35px;
+      padding-left: 10px;
+}
+.arc h2.a {
+         
+    position: relative;
+    left: 30%;
+    color: wheat;  
+     box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;
+}
+.arc h2.b {
+         
+    position: relative;
+    left: 50%;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;   
+}
+.arc h2.c {
+         
+    position: relative;
+    left: 30%;
+    color: wheat;   
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ; 
+}
+.arc h2.d {
+         
+    position: relative;
+    left: 40%;
+    color: wheat;
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;    
+}
+.arcp {
+    font-size: 20px;
+    background-color: rgb(202, 202, 202);
+    box-shadow: inset 0 8px 15px black;
+    border-radius: 10px;
+    width: 70%;
+    height: 150px;
+   position: relative;
+  left: 20%;
+   
+}
+.arcp p {
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+.int h1 {
+     color:whitesmoke;
+      font-size: 30px;
+      box-shadow: 0 5px 10px black;
+      width:200px;
+      height: 30px;
+      padding-left: 10px;
+      
+}
+.int h2.b {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+    display: flex;
+    justify-content: center;
+      
+}
+.int h2.c {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.int h2.b {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.int h2.d {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.int h2.e {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.int h2.f {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+.liv {
+    width: 80%;    
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 10%;
+    justify-content: space-between;
+}
+.sma h1 {
+     color:whitesmoke;
+      font-size: 30px;
+      box-shadow: 0 5px 10px black;
+      width:200px;
+      height: 30px;
+      padding-left: 10px;
+      
+}
+.sma h2.a {
+    position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.sma h2.b {
+    position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.sma h2.c {
+    position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.sma h2.d {
+    position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+}
+.home {
+    font-size: 20px;
+    background-color: rgb(202, 202, 202);
+    box-shadow: inset 0 8px 15px black;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+   position: relative;
+    margin: 10px;
+   
+}
+.home p {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    top: 20%;
+    left: 1%;
+
+}
+
+.sec h2.a{
+    position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+    left: 40%;
+}
+.sec h2.b {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ; 
+    left: 20%; 
+}
+.sec h2.c {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ;  
+    left: 40%;
+}
+.sec h2.d {
+     position: relative;
+    color: wheat; 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ; 
+    left: 20%; 
+}
+.sec img.a {
+    position: relative;
+    left: 25%;
+}
+.sec img.b {
+    position: relative;
+    left: 50%;
+}
+.sec img.c {
+    position: relative;
+    left: 35%;
+}
+.eng p {
+      position: relative;
+    color: rgb(248, 248, 247); 
+    box-shadow: 0 5px 10px black;  
+       width: 300px;
+    padding-left: 80px ; 
+    left: 20%; 
+}
+@media (max-width:600px){
+      .arc {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        
+      }
+       h2 {
+        position: static;
+        display: flex;
+        flex-direction: column ;
+        
+        left: 0;
+        width: 40%;
+        height: auto;
+        font-size: 15px;
+
+      }
+      img {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: auto;
+      }
+      .arcp p  {
+        position: static;
+       top: 2%;
+        left: 0;
+        gap: 0;
+        
+      }
+      .arcp {
+ width: 100%;
+        height: 80%;
+        font-size: 12px;
+        left: 0;
+      }
+      .arc h2.a,.arc h2.b,.arc h2.c,.arc h2.c,.arc h2.d {
+        left: 0;
+        width: 40%;
+      }
+      .des h2.one,.des h2.two,.des h2.three {
+        left: 0;
+        width: 40%;
+      }
+      .des {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        
+      }
+       .arc h1,.des h1,.int h1,.sma h1 {
+        font-size: 20px;
+        width: 40%;
+        height: auto;
+      }
+       .int h2.b,.int h2.c,.int h2.d,.int h2.e,.int h2.f {
+        width: 40%;
+        height: auto;
+       }
+        .home p  {
+        position: static;
+       top: 2%;
+        left: 0;
+        gap: 0;
+        
+      }
+      .home {
+ width: 100%;
+        height: 80%;
+        font-size: 12px;
+        left: 0;
+      }
+      .sma h2.a,.sma h2.b,.sma h2.c,.sma h2.d {
+        width: 40%;
+        left:0;
+        
+       }
+       .sec img.a,.sec img.b,.sec img.c {
+        left: 0;
+       }
+       .eng p {
+        left: 0;
+        width: 40%;
+       }
+}

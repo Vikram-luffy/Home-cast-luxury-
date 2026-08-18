@@ -1,0 +1,157 @@
+body {
+    background-image: url('picture5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.h1 {
+    font-size: 50px;
+  color: whitesmoke;
+}
+.h2 {
+    font-size: 50px;
+    color: brown;
+}
+
+h1{
+    display: inline;
+    cursor: pointer;
+    
+}
+
+tr {
+    list-style-type: none;
+    
+    
+
+}
+td {
+     font-size: 30px;
+     font: bolder;
+     color: whitesmoke;
+     width: 15%;
+     padding-left: 30px;
+     cursor: pointer;
+    
+}
+table {
+    background-color: rgb(39, 39, 39);
+    width: 850px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    margin-left:250px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.two {
+     color: rgb(163, 163, 163);
+    margin-left: 80px;
+   background:transparent;
+   backdrop-filter: blur(50px);
+   border-radius: 7px;
+   box-shadow: 0 7px 8px black;
+   width: 900px;
+   height: 250px;
+   padding-top: 12px;   
+   margin-top: 50px;
+   display: inline-block;
+   
+}
+p {
+     font-size: 20px;
+     width: 850px;
+     height: 25px;
+     padding-left: 50px;
+     cursor: pointer;
+}
+.one {
+    display: block;
+    
+}
+img {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    
+     cursor: pointer;
+     position: relative;
+}
+.four {
+    display: inline-block;
+}
+.three {
+    display: inline-block;
+    cursor: pointer;
+}
+h3 {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    
+    color: rgb(250, 250, 250);
+}
+.ten img {
+       width: 30px;
+       height: 30px;
+}
+.ten a,.six {
+    display: inline-block;
+    
+}
+.six {
+    font-size: 30px;
+    padding-right: 20px;
+}
+a:hover {
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px whitesmoke ;
+    
+    color: whitesmoke;
+    
+}
+ 
+.picuture1 {
+    position: relative;
+   
+    
+}
+.picture3 {
+    grid-column: 2;
+}
+.picuture4 {
+    grid-column: 3;
+}
+.picuture5 {
+    grid-column: 4;
+
+}
+img:hover {
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+@media (max-width:600px) {
+    table {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        position: relative;
+        width: 200px;
+        right: 30%;
+        
+    }
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+    td {
+        display: flex;
+        flex-direction: column;
+         width: 50%;
+     padding-left: 30px;
+    }
+}
